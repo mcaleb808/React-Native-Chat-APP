@@ -4,15 +4,15 @@
 
 ### Screenshot
 
-### Signup
+#### Signup
 
 <img src='./demo/signup.gif' width=200>
 
-### Login
+#### Login
 
 <img src='./demo/login-chat.gif' width=200>
 
-### Validation
+#### Validation
 
 <img src='./demo/validation.gif' width=200>
 
