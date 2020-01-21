@@ -55,6 +55,7 @@ export default class CreateAccountScreen extends Component {
         <Text style={style.title}>Password</Text>
         <TextInput
           placeholder="Enter password..."
+          secureTextEntry={true}
           onChangeText={this.onChangeTextPassword}
           value={this.state.password}
           style={style.input}

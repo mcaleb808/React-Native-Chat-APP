@@ -12,12 +12,13 @@ class FirebaseSvc {
   constructor() {
     if (!firebase.apps.length) {
       firebase.initializeApp({
-        apiKey: APIKEY,
-        authDomain: AUTHDOMAIN,
-        databaseURL: DATABASEURL,
-        projectId: PROJECTID,
-        storageBucket: STORAGEBUCKET,
-        messagingSenderId: MESSAGINGSENDERID
+        apiKey: 'AIzaSyB_9wrBP0ly0xpGrqnGlB8WVQtFurVWNvo',
+        authDomain: 'mychatapp-38adc.firebaseapp.com',
+        databaseURL: 'https://mychatapp-38adc.firebaseio.com',
+        projectId: 'mychatapp-38adc',
+        storageBucket: 'mychatapp-38adc.appspot.com',
+        messagingSenderId: '196359412221',
+        appId: '1:196359412221:web:f04148c1924ae20c746194'
       });
     }
   }
